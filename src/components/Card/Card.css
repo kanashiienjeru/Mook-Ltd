@@ -1,0 +1,25 @@
+.card {
+    width: 90%;
+    padding: 14px;
+
+    background: transparent linear-gradient(140deg, #FFF7FC66 0%, #FFFFFF66 0%, #FFFFFF00 100%) 0% 0% no-repeat padding-box;
+    box-shadow: inset 3px 3px 6px #EEE5E9;
+    border-radius: 30px;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+
+}
+
+.card img {
+    margin-bottom: 11px;
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+.card>p {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 35px;
+    color: #FCEFF9;
+}

@@ -1,0 +1,22 @@
+.footer {
+    background: #FCEFF9 0% 0% no-repeat padding-box;
+    border-radius: 50px 50px 0px 0px;
+    padding: 30px 50px;
+    height: 150px;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.footer>p {
+    font-size: 20px;
+}
+
+
+.footer__contacts {
+    margin-bottom: 20px;
+    font: normal normal normal 20px/24px SF Pro Display;
+}
+
+.footer__copyright {
+    font: normal normal 100 20px/24px SF Pro Display;
+}
