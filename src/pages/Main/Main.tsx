@@ -18,11 +18,13 @@ function Main() {
 
   const handleCloseOtherModals = () => {
     setUploadOpen(false)
+    removeOverflowHiddenFromBody()
   }
 
   const openUploadPage = () => {
     handleCloseOtherModals()
     setUploadOpen(true)
+    addOverflowHiddenToBody()
   }
 
   const openAuth = () => {
